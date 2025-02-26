@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: Georgia, serif;
-            background-color: #ff6f9d;
+            background-color: #ffb7ce;
             margin: 0;
             padding: 0;
             color: #000000;
@@ -20,17 +20,26 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(236, 188, 188, 0.1);
         }
-        h1, h2 {
-            color: #2c3e50;
+        h1 {
+            color: #ff6f9d;
+            text-align: center;
+        } 
+        h2 {
+            color: #fd82a5;
             text-align: center;
         }
+        p {
+            color: #d7238f;
+            text-align: center;
+        }
+        
         hr {
             border: 2px solid #ff6f9d;
         }
         .profile-pic {
             display: block;
             margin: 0 auto;
-            border-radius: 50%;
+            border-radius: 15px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
         }
         table {
@@ -43,14 +52,16 @@
         ul {
             list-style-type: none;
             padding: 0;
+            text-align: center;
         }
         li {
-            background: #ecf0f1;
+            background: #fdccde;
             margin: 5px 0;
             padding: 10px;
             border-radius: 5px;
             display: flex;
             align-items: center;
+            justify-content: center;
         }
         li img {
             margin-right: 10px;
@@ -61,19 +72,30 @@
             font-weight: bold;
         }
         a:hover {
-            color: #2c3e50;
+            color: #f8b3d2;
+        }
+        .map-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Curriculum Vitae</h1>
-        <marquee behavior="alternate" scrollamount="6"><h2>NANDA VARESA RAMADHANI</h2></marquee>
+        <h1><u>Curriculum Vitae</u></h1>
+        <h2>NANDA VARESA RAMADHANI</h2>
         <img src="foto5.jpg" width="120" alt="Foto Profil" class="profile-pic">
+        <p>
+            I'm a 2nd semester Information Systems student at Brawijaya University with an interest in IT and design. 
+            I have a foundation in programming and graphic design and am enthusiastic about developing skills in both fields. 
+            I am a fast learner and able to work well in teams and independently.
+        </p>
         <hr>
+
         
-        <h2>Personal Data</h2>
-        <table>
+        <h2><u>Data Pribadi</u></h2>
+        <table style="text-align: center;">
             <tr>
                 <td><b>Nama</b></td>
                 <td>: Nanda Varesa Ramadhani</td>
@@ -82,45 +104,76 @@
                 <td><b>Tempat/Tanggal Lahir</b></td>
                 <td>: Keerom, 05 Oktober 2006</td>
             </tr>
-            <tr>
-                <td><b>Alamat</b></td>
-                <td>: <a href="https://goo.gl/maps/ySvmTRh3eZaVRLec6" target="_blank">Lihat di Google Maps</a></td>
-            </tr>
         </table>
         <hr>
         
-        <h2>Skills</h2>
+        <h2>Keterampilan</h2>
         <ul>
             <li>Manajemen Waktu</li>
             <li>Pemecahan Masalah</li>
             <li>Desain Grafis</li>
-            <li>Komunikasi Efektif</li>
         </ul>
         <hr>
-        
-        <h2>Education</h2>
+
+        <h2><u>Pengalaman</u></h2>
         <table>
             <tr>
-                <td><b>SMA</b></td>
-                <td>: SMA NEGERI 2 SKANTO</td>
+                <td><b>Sie. Evaluasi Putri Ambalan RA. Kartini</b></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2022 - 2023</td>
             </tr>
             <tr>
-                <td><b>Universitas</b></td>
-                <td>: Universitas Brawijaya</td>
+                <td><b>Sekbid 9 Osis SMAN 2 SKANTO</b></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2022 - 2023</td>
+            </tr>
+            <tr>
+                <td><b>Anggota PMR SMAN 2 SKANTO</b></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2021 - 2022</td>
+            </tr>
+            <tr>
+                <td><b>Anggota PIK-R Rajawali</b></td>
+                <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2021 - 2022</td>
             </tr>
         </table>
         <hr>
         
-        <h2>Contact Person</h2>
-        <ul>
-            <li><img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" width="20"> <b>Telepon:</b> <a href="tel:+6282248364440">082248364440</a></li>
-            <li><img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" width="20"> <b>Email:</b> <a href="mailto:nandavaresa510@gmail.com">nandavaresa510@gmail.com</a></li>
-            <li><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="20"> <b>LinkedIn:</b> <a href="https://www.linkedin.com/in/nanda-varesa" target="_blank">LinkedIn Profile</a></li>
-            <li><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" width="20"> <b>WhatsApp:</b> <a href="https://wa.me/6282354873040" target="_blank">Chat via WhatsApp</a></li>
-        </ul>
+        <h2><u>Pendidikan</u></h2>
+        <table>
+            <tr>
+                <td><b>Sma Negeri 2 Skanto</b></td>
+                <td></td>
+                <td style="text-align: center;">2021 - 2024</td>
+            </tr>
+            <tr>
+                <td><b>Universitas Brawijaya</b></td>
+                <td>Sistem Informasi</td> 
+                <td style="text-align: center;">2024 - sekarang</td>
+            </tr>
+        </table>
         <hr>
         
-        <p style="text-align:center;"><b>Terima kasih telah melihat Curriculum Vitae saya! 🚀</b></p>
+        <h2>Kontak</h2>
+        <ul>
+            <li><img src="telp.png" width="20"> 
+                Telepon : <a href=" tel:+6282248364440">&nbsp; 082248364440</a></li>
+            <li><img src="email.png" width="20"> 
+                Email : <a href=" mailto:nandavaresa510@gmail.com">&nbsp; nandavaresa510@gmail.com</a></li>
+            <li><img src="linkin.png" width="20"> 
+                LinkedIn : <a href=" https://www.linkedin.com/in/nanda-varesa" target="_blank">&nbsp; LinkedIn Profile</a></li>
+            <li><img src="whtsap.png" width="20"> 
+                WhatsApp : <a href=" https://wa.me/6282354873040" target="_blank">&nbsp; Chat via WhatsApp</a></li>
+        </ul>
+        <hr>
+
+        <h2>Alamat</h2>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97154.38712446256!2d140.59862423547176!3d-2.564963898780683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x686c581e4ec6ff6b%3A0x26030bfcc0920592!2sJayapura%2C%20Kota%20Jayapura%2C%20Papua!5e1!3m2!1sid!2sid!4v1740542909273!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <p style="text-align: center;">
+            Link Rumah Saya: <a href="https://goo.gl/maps/ySvmTRh3eZaVRLec6" target="_blank">Lihat di Google Maps</a>
+        </p>
+        <hr>
+        <p style="text-align:center;"><b>Terima kasih telah melihat Curriculum Vitae saya!!!</b></p>
     </div>
+
 </body>
 </html>
